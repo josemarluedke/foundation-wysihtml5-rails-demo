@@ -16,3 +16,8 @@
 @import "foundation";
 @import "font-awesome";
 @import "foundation-wysihtml5/index.css";
+
+// Hack spacing bug on underline button for Foundation 5
+ul.wysihtml5-toolbar a.button.tiny[data-wysihtml5-command=underline] {
+  padding-top: 11px;
+}
